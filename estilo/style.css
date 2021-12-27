@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+    font-weight: 400;
+    margin: 0px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+   background-image: radial-gradient(circle, #83bdab, #61daa0, #52876a) 
+    
+}
+
+h1{
+    font-family: "Oswald", Arial, Helvetica, sans-serif
+}
+
+header>h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+h2{
+    
+    font-size: 1.9em;
+    font-family: "Oswald", Arial, Helvetica, sans-serif
+}
+header{
+    text-align: center;
+    background-image: radial-gradient();
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom: 0px;
+    box-sizing: border-box;
+    position: relative;
+  
+}
+:root{
+    --cor01: #3169AD;
+    --cor02: #384B61;
+    --cor03: #3F88E0;
+    --cor04: #85B0E6;
+    --cor05: #1B3B61;
+    --cor06: #11233c;
+}
+header>h1{
+    font-size: 3.5em;
+    
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.subtitulo{
+    max-width: auto;
+    
+    color: white;
+    text-align: center;
+    padding: 8px;
+    
+    background-color: var(--cor06);
+    border: 3px solid black;
+    
+}
+
+   
+
+main {
+    max-width: 950px;
+    
+    border-radius: 10px;
+    background-color: white;
+}
+header{
+   
+    background-image: radial-gradient(circle, var(--cor04), var(--cor02));
+}
+
+    
+
+.artigo2>p{
+    text-indent: 30px;
+    padding: 10px;
+}
+
+    
+
+.artigo2{
+    text-align: justify;
+   
+    margin: auto;
+   
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.article3{
+    text-align: justify;
+    padding: 8.2px;
+    border:3px solid black;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    background-color: #ffffff;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.main3>p{
+    padding: 10px;
+    text-indent: 30px;
+}
+p{
+    text-indent: 30px;
+}
+
+nav{
+    background-color: var(--cor02);
+}
+.inicio{
+    background-color: #008deb9a;
+    
+}   
+   
+
+
+nav>a{
+
+    color: #ffffff;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    transition: 0.5s;
+    transform: 1.1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 9px;
+    padding-bottom: 4px ;
+    text-decoration: none;
+   
+}
+nav>a:hover{
+    
+    background-color: #008deb9a;
+}
+main{
+    text-align: justify;
+    padding: 2px;
+    border:3px solid black;
+    margin: auto;
+    max-width: 950px;
+   
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+article>p{
+    padding: 10px;
+}
+article>h2{
+    padding: 10px;
+}
+nav{
+    border:3px  solid black;
+    padding:10px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+
+   
+
+.video{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+ 
+    margin: 10px auto;
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 49.3%;
+    margin: auto;
+}
+iframe{
+    position: absolute;
+    bottom: 2%;
+    left: 8.7%;
+    margin: auto;
+    width: 82%;
+    height: 82%;
+}
+
+
+img{
+   display: block;
+   margin: auto;
+  
+   width: 65%;
+   height: auto;
+   border-top: 1vw solid var(--cor06);
+   border-bottom: 1vw solid var(--cor06);
+   border-left: 1vw solid var(--cor06);
+   border-right: 1vw solid var(--cor06);
+}
+.foto-microsoft{
+    display: block;
+   margin: auto;
+   width: 85%;
+   height: 35vw;
+}
+.microsoft{
+    color: var(--cor06);
+    text-decoration: none;
+    font-weight: 600;
+    background-color: var(--cor04);
+    padding: 2px;
+}
+
+footer{
+    text-align: center;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    color:white;
+    background-color: #11233c;
+}
+ul{
+   
+    columns: 2;
+  
+}
+footer>a{
+    
+    
+    color: var(--cor04);
+    
+}
+.q{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--cor04);
+
+}
+div h2{
+     padding: 10px;
+     
+     margin: -10px -10px 0px -10px;
+     color: white;
+     background-color: var(--cor06);
+border-radius: 10px 10px 0px 0px;
+}
+abbr{
+    text-decoration: none;
+    text-decoration: var(--cor06);
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.ibm-pc{
+    height: 70%;
+    max-height: 350px;
+    min-height: 50px;
+}
+.borderbottom-p{
+    
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
